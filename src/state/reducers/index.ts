@@ -5,3 +5,4 @@ bank:BankReducer
 });
 
 export default reducers;
+export type RootState=ReturnType<typeof reducers>
